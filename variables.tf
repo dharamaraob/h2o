@@ -26,7 +26,7 @@ variable "PATH_TO_PUBLIC_KEY" {
   default = "mykey.pub"
 }
 variable "INSTANCE_USERNAME" {
-  default = "ubuntu"
+  default = "ec2-user"
 }
 
 variable "ACCOUNT_ID"{}
