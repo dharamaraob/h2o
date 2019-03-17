@@ -99,7 +99,7 @@ resource "aws_security_group" "Admin-Public-sg" {
     from_port = 22
     to_port = 22
     protocol = "tcp"
-    cidr_blocks = ["68.128.0.0/16","68.140.0.0/16"]
+    cidr_blocks = ["68.128.0.0/16","68.140.0.0/16","34.215.49.238/32"]
   }
   ingress {
     from_port = 54321

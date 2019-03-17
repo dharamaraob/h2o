@@ -21,6 +21,7 @@ resource "aws_instance" "jump" {
     ]
   }
   connection {
+    type = "ssh"
     user = "${var.INSTANCE_USERNAME}"
     private_key = "${file("${var.PATH_TO_PRIVATE_KEY}")}"
   }
@@ -30,10 +31,10 @@ output "private_dns.jump " {
     value = "${aws_instance.jump.private_dns}"
 }
 
-resource "aws_eip" "jump" {
-    instance = "${aws_instance.jump.id}"
-    vpc = true
-}
+//resource "aws_eip" "jump" {
+//    instance = "${aws_instance.jump.id}"
+//    vpc = true
+//}
 
 output "public_ip.jump" {
     value = "${aws_instance.jump.public_ip}"

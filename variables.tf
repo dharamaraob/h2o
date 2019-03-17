@@ -20,10 +20,10 @@ variable "AMIS" {
 variable "ins_type" { default="p3.2xlarge" }
 
 variable "PATH_TO_PRIVATE_KEY" {
-  default = "mykey"
+  default = "./pdhir_east1_dcos"
 }
 variable "PATH_TO_PUBLIC_KEY" {
-  default = "mykey.pub"
+  default = "./pdhir_east1_dcos.pub"
 }
 variable "INSTANCE_USERNAME" {
   default = "ec2-user"
