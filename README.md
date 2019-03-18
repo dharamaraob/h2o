@@ -31,16 +31,16 @@ ubuntu@ip-20-200-1-123:/tmp/tf/4/h2o$ python h2otf.py --cmd apply<br/>
 apply<br/>
 aws_eip.Admin-nat-eip: Creating...<br/>
   allocation_id:     "" => "<computed>"<br/>
-  association_id:    "" => "<computed>"
-  domain:            "" => "<computed>"
-  instance:          "" => "<computed>"
-  network_interface: "" => "<computed>"
-  private_dns:       "" => "<computed>"
-  private_ip:        "" => "<computed>"
-  public_dns:        "" => "<computed>"
-  public_ip:         "" => "<computed>"
-  public_ipv4_pool:  "" => "<computed>"
-  vpc:               "" => "true"
+  association_id:    "" => "<computed>"<br/>
+  domain:            "" => "<computed>"<br/>
+  instance:          "" => "<computed>"<br/>
+  network_interface: "" => "<computed>"<br/>
+  private_dns:       "" => "<computed>"<br/>
+  private_ip:        "" => "<computed>"<br/>
+  public_dns:        "" => "<computed>"<br/>
+  public_ip:         "" => "<computed>"<br/>
+  public_ipv4_pool:  "" => "<computed>"<br/>
+  vpc:               "" => "true"<br/>
   :<br/>
   :<br/>
   aws_instance.jump (remote-exec): nohup: appending output to ‘nohup.out’<br/>
