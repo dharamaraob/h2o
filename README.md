@@ -52,7 +52,16 @@ private_dns.jump  = ip-172-22-1-120.us-west-2.compute.internal
 public_ip.jump = 54.245.184.32
 ubuntu@ip-20-200-1-123:/tmp/tf/4/h2o$
 
-Ex:
+Ex: $python h2otf.py --cmd destroy
+:
+Plan: 0 to add, 0 to change, 15 to destroy.
 
-to browse H2o application
+Do you really want to destroy all resources?
+  Terraform will destroy all your managed infrastructure, as shown above.
+  There is no undo. Only 'yes' will be accepted to confirm.
+  Enter a value: yes
+  :
+  Destroy complete! Resources: 15 destroyed.
+
+to browse H2o3 application
 http://54.245.184.32:54321
