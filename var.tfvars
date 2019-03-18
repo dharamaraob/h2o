@@ -1,4 +1,4 @@
-ACCOUNT_ID = "xxxxxxxx"
+ACCOUNT_ID = "xxxxxxxx" # Please add your Account ID here.
 #provider
 
 #VPC
