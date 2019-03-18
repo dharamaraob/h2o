@@ -61,9 +61,11 @@ Do you really want to destroy all resources?
   There is no undo. Only 'yes' will be accepted to confirm.
   Enter a value: yes
   :
+  :
   Destroy complete! Resources: 15 destroyed.
 
 to browse H2o3 application
+
 http://54.245.184.32:54321
 
 
