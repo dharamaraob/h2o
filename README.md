@@ -65,3 +65,10 @@ Do you really want to destroy all resources?
 
 to browse H2o3 application
 http://54.245.184.32:54321
+
+
+Further Improvements:
+
+1. Create a ELB and put infront of the Instance.
+2. Create a Route53 and add the ELB to Route53 and browse the application using Route53 ex: h2o3-opensrc.h20.com
+3. Instead of creating the instance in Public Subnet , create it in private subnet and create the ELB aswell in private subnet.
