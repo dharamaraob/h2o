@@ -1,4 +1,6 @@
 1. Prerequisites: Terraform need to be installed.
+2. Account Id must be updated with the respective account.
+3. Here I am using IAM Role. Either IAM Role(Recommended) need to be created or should use the AWS keys for this demo (Not a best practice)
 I am creating a vpc with the below resources
     1. Public Subnet
     1. Private Subnet
@@ -61,13 +63,11 @@ Do you really want to destroy all resources?
   There is no undo. Only 'yes' will be accepted to confirm.
   Enter a value: yes
   :
-  :
   Destroy complete! Resources: 15 destroyed.
 
 to browse H2o3 application
 
 http://54.245.184.32:54321
-
 
 Further Improvements:
 
