@@ -12,11 +12,11 @@ Note:
     2. Add your SSH keys, I am not uploading the keys here.
 
 Ex:
-ubuntu@ip-10-100-1-123:/tmp/tf/4/h2o$ python h2otf.py --cmd init
+ubuntu@ip-20-200-1-123:/tmp/tf/4/h2o$ python h2otf.py --cmd init
     Run this command to initialize for the first time.
 
 Ex: Run the plan and to save the plan in the file named ins, run : $ python h2otf.py --cmd plan
-ubuntu@ip-10-100-1-123:/tmp/tf/4/h2o$ python h2otf.py --cmd plan
+ubuntu@ip-20-200-1-123:/tmp/tf/4/h2o$ python h2otf.py --cmd plan
 Plan
 Refreshing Terraform state in-memory prior to plan...
 The refreshed state will be used to calculate this plan, but will not be
@@ -25,7 +25,7 @@ persisted to local or remote state storage.
 
 Ex:
 If you are satisfied with your changes, to apply the infra
-ubuntu@ip-10-100-1-123:/tmp/tf/4/h2o$ python h2otf.py --cmd apply
+ubuntu@ip-20-200-1-123:/tmp/tf/4/h2o$ python h2otf.py --cmd apply
 apply
 aws_eip.Admin-nat-eip: Creating...
   allocation_id:     "" => "<computed>"
@@ -50,7 +50,7 @@ Outputs:
 
 private_dns.jump  = ip-172-22-1-120.us-west-2.compute.internal
 public_ip.jump = 54.245.184.32
-ubuntu@ip-10-100-1-123:/tmp/tf/4/h2o$
+ubuntu@ip-20-200-1-123:/tmp/tf/4/h2o$
 
 Ex:
 
