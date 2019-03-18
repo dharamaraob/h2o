@@ -9,7 +9,10 @@ resource "aws_instance" "jump" {
   subnet_id = "${aws_subnet.Admin-Public.id}"
   key_name = "${aws_key_pair.mykey.key_name}"
   security_groups = ["${aws_security_group.Admin-Public-sg.id}"]
-
+  root_block_device {
+    volume_size = "${var.disksize}"
+    volume_type = "${var.disktype}"
+  }
   provisioner "file" {
     source = "script.sh"
     destination = "/tmp/script.sh"

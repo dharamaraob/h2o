@@ -1,6 +1,5 @@
-ACCOUNT_ID = "417868214462"
+ACCOUNT_ID = "xxxxxxxx"
 #provider
-ROLE_Name = "AdminAcc-Jenkins-Access-Role"
 
 #VPC
 vpc-region = "us-west-2"
@@ -25,4 +24,4 @@ Pvt-subnet-Name = "Test-Private-Subnet"
 Admin-Public-sg-Name = "Test-Public-sg"
 Admin-Private-sg-Name = "Test-Private-sg"
 
-flowlogBucketARN = "arn:aws:s3:::scvnppoc-vpcflowlogs" # Change your bucket
+flowlogBucketARN = "arn:aws:s3:::tcvnp-vpcflowlogs" # Change your bucket

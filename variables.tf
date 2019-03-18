@@ -29,6 +29,14 @@ variable "INSTANCE_USERNAME" {
   default = "ec2-user"
 }
 
+variable "disksize" {
+  default = "300"
+}
+
+variable "disktype" {
+  default = "gp2"
+}
+
 variable "ACCOUNT_ID"{}
 variable "ROLE_Name"{}
 variable "vpc-region"{}
